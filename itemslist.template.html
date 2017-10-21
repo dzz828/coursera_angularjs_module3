@@ -1,0 +1,6 @@
+<ol class="item-list">
+    <li ng-repeat="item in ctrl.foundItems">
+        <button ng-click="ctrl.onRemove({index: $index});">Don't want this one!</button>
+        {{item.name}}, {{item.short_name}}, {{item.description}}
+    </li>
+</ol>

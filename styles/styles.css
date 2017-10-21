@@ -10,7 +10,6 @@ input[type="text"] {
   margin-left: 10px;
 }
 .loader {
-  display: none;
   margin-left: 5px;
   font-size: 10px;
   float: left;
@@ -29,6 +28,9 @@ input[type="text"] {
   border-radius: 50%;
   width: 3em;
   height: 3em;
+}
+.item-list {
+  float: left;
 }
 @-webkit-keyframes load8 {
   0% {
